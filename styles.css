@@ -22,9 +22,12 @@ body {
 }
 
 .logo {
-  font-size: 36px;
-  font-weight: bold;
-}
+    max-height: 50px; /* Sets the maximum height the logo can have */
+    max-width: 100%; /* Ensures the logo is responsive and fits its container */
+    width: auto; /* Keeps the image aspect ratio intact */
+    height: auto; /* Keeps the image aspect ratio intact */
+  }
+  
 
 .content {
   flex: 1;
